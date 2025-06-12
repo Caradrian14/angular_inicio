@@ -14,3 +14,8 @@ Se trata de una herramienta similar a nodejs en la que se permite cosas en el se
 Esta es la version mas nueva y no la mas antigua.
 `npm install -g @angular/cli` para instaar angular
 `ng config -g cli.packageManager bun` mete bun en el manejador de paquetes a nivel global.
+
+Angular, dentro se usa un servidor de expres js, el service rendering. Se puede crear servidores dentro y bases de datos dentro. 
+
+En el contexto de Angular, los servicios y la renderización están estrechamente relacionados con la arquitectura de componentes y la inyección de dependencias.
+Service Rendering se refiere a cómo los servicios interactúan con la renderización de componentes, podría implicar el uso de servicios para preparar o manipular datos que luego son utilizados por los componentes para renderizar la interfaz de usuario. Por ejemplo, un servicio podría obtener datos de una API, y un componente podría utilizar esos datos para renderizar una lista de elementos en la pantalla.

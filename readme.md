@@ -25,3 +25,13 @@ Angular usa mucho typescript
 `ng serve` es una de las funciones más utilizadas de Angular CLI (Command Line Interface). Este comando se utiliza para compilar y servir una aplicación Angular en un servidor de desarrollo local.
 
 El comando `ng build` en Angular CLI se utiliza para compilar una aplicación Angular en un conjunto de archivos estáticos que pueden ser desplegados en un servidor web. Este proceso de compilación es esencial para preparar la aplicación para su implementación en un entorno de producción o cualquier otro entorno donde los usuarios finales interactuarán con ella.
+
+El bundle transpila ( tranforma) de typescript a Javascript. Ademas minifica y uglyfica. si hay fichero 
+
+## tsconfig.ts
+target- la version de ts
+useDefineForClassesFields - para seguridad
+
+### Pregunta entrevist atecnica de Typescript
+a typescript no le importa los nombres simepre que cumplan con la forma, es el 'shape' o la forma
+se puede poner `#` y sirve como private en una clase

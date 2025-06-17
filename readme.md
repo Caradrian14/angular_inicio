@@ -19,3 +19,9 @@ Angular, dentro se usa un servidor de expres js, el service rendering. Se puede 
 
 En el contexto de Angular, los servicios y la renderización están estrechamente relacionados con la arquitectura de componentes y la inyección de dependencias.
 Service Rendering se refiere a cómo los servicios interactúan con la renderización de componentes, podría implicar el uso de servicios para preparar o manipular datos que luego son utilizados por los componentes para renderizar la interfaz de usuario. Por ejemplo, un servicio podría obtener datos de una API, y un componente podría utilizar esos datos para renderizar una lista de elementos en la pantalla.
+
+Angular usa mucho typescript
+
+`ng serve` es una de las funciones más utilizadas de Angular CLI (Command Line Interface). Este comando se utiliza para compilar y servir una aplicación Angular en un servidor de desarrollo local.
+
+El comando `ng build` en Angular CLI se utiliza para compilar una aplicación Angular en un conjunto de archivos estáticos que pueden ser desplegados en un servidor web. Este proceso de compilación es esencial para preparar la aplicación para su implementación en un entorno de producción o cualquier otro entorno donde los usuarios finales interactuarán con ella.
